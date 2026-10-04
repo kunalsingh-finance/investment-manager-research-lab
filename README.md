@@ -6,7 +6,7 @@ The project compares **four real actively managed US equity mutual funds across 
 
 **Open [the research dashboard](output/report.html)** or double-click **Open Research Lab.cmd** on Windows. The saved dashboard works offline in a modern browser; viewing it needs no Python, account, API key, server, or external JavaScript library.
 
-## What to demonstrate
+## Research capabilities
 
 | Research task | Implemented evidence |
 | --- | --- |
@@ -59,11 +59,10 @@ This optional command needs internet access. Acquisition never overwrites an exi
 
 | File | Purpose |
 | --- | --- |
-| [Interview walkthrough](docs/INTERVIEW_WALKTHROUGH.md) | Five-minute demo, technical questions, and factual project bullets |
 | [Methodology](docs/METHODOLOGY.md) | Equations, estimator conventions, benchmark assumptions and limitations |
 | [Analytics](managerlab/analytics.py) | Performance, robust factor inference, constrained style fits and monitoring |
 | [Source validation](managerlab/data.py) | Hash checks, daily-to-monthly conversion, factor parsing and coverage checks |
 | [SQL examples](sql/research_queries.sql) | Benchmark sensitivity, monitoring and coverage queries |
 | [Dashboard template](web/template.html) | Dependency-free interactive presentation |
 
-The project demonstrates investment research, Python, SQL, statistics, financial communication, and reproducible data work. It is an independent portfolio project; it does not imply employment by, affiliation with, or endorsement from the fund companies.
+This independent research project uses Python, SQL, and statistical models to produce reproducible fund analysis. It is not affiliated with or endorsed by the fund companies.
