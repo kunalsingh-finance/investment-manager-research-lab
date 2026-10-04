@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "as_of": "2025-12-31",
+  "monthly_observations": 1080,
+  "funds": 4,
+  "sources": 10,
+  "artifacts": {
+    "adjusted_month_end_prices.csv": "0cc2106edd10f532ebca0262ba619f6389b3214501dab50e1329e381ea3b5907",
+    "metrics.csv": "f64bc57d67a9c9eb219e27a96edad9429e264319025873f34794c2d719d8b166",
+    "monthly_factors.csv": "9603641005adce4b6d050cc8dfd19a3187f92cd4ded9453106b46262b3eafe8a",
+    "monthly_returns.csv": "589c1e861826666d3014f01f037de80e2584e7e97e0cab5470be3a6af40d413c",
+    "report.html": "b455b3b3ca3763e7dccd37613a41d54089cfe7d380fb444b81e5857485d49fad",
+    "research.json": "0e89036c8b6fc01f4786834b07c042db441dbeefbcfff8b36c3c8f351f35be83",
+    "research.sqlite": "0441a40095740e555ed4f9f11c98c28fff7cd0dbb6925f5787c60d2bea49f9e3"
+  },
+  "model_fingerprints": {
+    "config/universe.json": "71468c048cf19a3ec6e01a0402e7c85bd48e2d231c1a520f3f5602b4620ebe1f",
+    "data/raw/manifest.json": "3ff3960647c71fe92de820683e55fd0807e4c7b9955db707ea45d476101b8667",
+    "web/template.html": "8cbbcce063b8f54551dcf0869007e6a23cf8b87d3e9a72914ba3af2b7954181a",
+    "scripts/build_report.py": "8016a0b07fb1537c08f4434e2295974f1c8a5b3be5c23822141ade9c2592edd7",
+    "managerlab/__init__.py": "707ac7586a1aefa208b55ac75ebc26281eb368eff7e6c3124a312bc1b78180e8",
+    "managerlab/analytics.py": "8633da24f6f36161b94fa6390cf18f3ed2b047d0b156c8b65aa6fce5c7468c64",
+    "managerlab/data.py": "59a681f7765fc9b0526d62e4ec2c266f8f587db2597850ba53e95a0acc93f833"
+  }
+}

@@ -1,0 +1,6 @@
+[
+  {"ticker":"FCNTX","name":"Fidelity Contrafund","mandate":"Flexible US equity / growth-oriented proxy","benchmark":"IWF","issuer_url":"https://fundresearch.fidelity.com/mutual-funds/summary/316071109"},
+  {"ticker":"TRBCX","name":"T. Rowe Price Blue Chip Growth","mandate":"US large-cap growth","benchmark":"IWF","issuer_url":"https://www.troweprice.com/financial-intermediary/us/en/investments/mutual-funds/us-products/blue-chip-growth-fund.html"},
+  {"ticker":"DODGX","name":"Dodge & Cox Stock Fund · Class I","mandate":"Value-oriented equity / some non-US flexibility","benchmark":"IWD","issuer_url":"https://www.dodgeandcox.com/individual-investor/us/en/our-funds/stock-fund-dodgx.html"},
+  {"ticker":"PRDGX","name":"T. Rowe Price Dividend Growth","mandate":"US dividend growth","benchmark":"VIG","issuer_url":"https://www.troweprice.com/literature/public/country/us/language/en/literature-type/strategy-highlight/sub-type/single-class?currency=USD&productCode=DGF"}
+]

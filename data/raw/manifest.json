@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "label": "Pinned public-source retrospective research snapshot",
+  "retrieved_at": "2026-10-04T14:21:56.217758+00:00",
+  "measurement_start": "2016-01-31",
+  "measurement_end": "2025-12-31",
+  "return_convention": "Monthly change in last daily vendor adjusted close; distribution-adjusted total-return proxy. Fund expenses already embedded; taxes, loads, dealing costs and investor cash flows excluded.",
+  "limitations": [
+    "Current vendor and academic data vintage, not data known at each historical date.",
+    "Four selected surviving funds; no complete peer universe or survivorship correction.",
+    "ETF adjusted market-price benchmarks are analyst-selected proxies, not official index/NAV returns or verified fund prospectus benchmarks.",
+    "Vendor distribution adjustments are not independently reconciled to fund administrator records.",
+    "Historical returns and regressions cannot establish manager skill or predict returns.",
+    "Team, process, capacity, liquidity and operational diligence remain outstanding.",
+    "Style weights are a constrained returns-based fit to three correlated proxies, not observed holdings.",
+    "This is a research demonstration; no orders, client portfolios or automatic manager approvals."
+  ],
+  "records": [
+    {
+      "name": "FCNTX",
+      "file": "FCNTX.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCNTX?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:54.604514+00:00",
+      "sha256": "910edb1a3afc2f999677e6e66fc918887637613c9f1a88838b8b3fd102ba88dd",
+      "content_sha256": "905cba0db851504419b760e0cabb84b3bc54db11efdc2df6ce172dfb6963938d",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "TRBCX",
+      "file": "TRBCX.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRBCX?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:54.742663+00:00",
+      "sha256": "ee061807c708598bc600635223baaa2c150102fe6e7d2d94cec4cf6955508ddc",
+      "content_sha256": "ee5083ec59f70b245efde14f2cacf5ca2bf08a0a92a7e96e09ff2dd9ae29b53b",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "DODGX",
+      "file": "DODGX.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DODGX?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:54.908899+00:00",
+      "sha256": "3952a368a03fcd8c3d6336756a9bf651c65e67c34b86e941353e8f009b6a1689",
+      "content_sha256": "0aed0082f0c5deba7d53a70141435460be32284cfaad6e85ffbe61f19a509771",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "PRDGX",
+      "file": "PRDGX.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/PRDGX?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.056526+00:00",
+      "sha256": "411c548bef98271c39bbb5e6e31fd8bd38a98e0374ab0302c8fa759828bbfb8a",
+      "content_sha256": "c5b12cf4e4fc1e173296ef4ecb28f49f707d5cb4bba1eb42d7451aaa679522eb",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "SPY",
+      "file": "SPY.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.227774+00:00",
+      "sha256": "b224027463d8e767edcc8f1b82ca46f3d60d6fb5e08d053fe88aea901b52f4f0",
+      "content_sha256": "f7be1b6c069224b2251c8cfe626fa2fd4dc88bf967cf2f12ce0a520079c29cb8",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "IWF",
+      "file": "IWF.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWF?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.369783+00:00",
+      "sha256": "4b8ecc098cf319727723cdd97a0370e22c169d5f688affa641567ba7d6ce5671",
+      "content_sha256": "3c8d750ca061102ea7ce74b5a88f21de99fb9bdaed8189791602b48cbc184b1b",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "IWD",
+      "file": "IWD.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWD?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.546391+00:00",
+      "sha256": "d237588bed20f489e222ae7423e5db9abdccedf5c06cea45792a7ba53029cc7f",
+      "content_sha256": "026823a7ec0b3cbd1850ee03c283416905bdc56661bf31fd93134f301c2b7ee6",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "VIG",
+      "file": "VIG.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VIG?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.667474+00:00",
+      "sha256": "0c8ae344d04a7fd9a8ff12d184d36d6a953300b6442eaddb57709d35a059c037",
+      "content_sha256": "dfdb39a703902a4f1a87647cdd6d261c8a0a27a6781e538a45ef8a0402227b22",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "IWM",
+      "file": "IWM.json.gz",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?period1=1448928000&period2=1767225600&interval=1d&events=div%2Csplits%2CcapitalGains",
+      "retrieved_at": "2026-10-04T14:21:55.802569+00:00",
+      "sha256": "230764d4915f73f5932eab05db67f80fa22c4008ecd7d3da8b0f6ddeb14722dd",
+      "content_sha256": "7c8e0076de7801ff4174faa3936b0784faea72adaf72a1a27a51963f0b86481f",
+      "monthly_prices": 121,
+      "source_type": "vendor_adjusted_close"
+    },
+    {
+      "name": "Fama-French 5 factors",
+      "file": "ff5_monthly.zip",
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+      "retrieved_at": "2026-10-04T14:21:56.217758+00:00",
+      "sha256": "36756c5c2559648519ac4b22913d860c6afd865cfebce920e3e8927f8e2d10b7",
+      "months": 120,
+      "source_type": "academic_factor_archive"
+    }
+  ]
+}

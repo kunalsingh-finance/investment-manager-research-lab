@@ -1,0 +1,2 @@
+* -text
+# Source and artifact hashes are byte-sensitive; preserve checked-in bytes.
